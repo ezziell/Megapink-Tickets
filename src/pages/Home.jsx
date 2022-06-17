@@ -8,7 +8,7 @@ const Home = () => {
             <p className='pre-title'>¿Cuánto sabes sobre</p>
             <h1 className='title'>ballenas?</h1>
             <button className='play-btn'>
-                <Link to="/" className='link'>
+                <Link to="/Play" className='link'>
                 JUGAR
                 </Link>
                 </button>
