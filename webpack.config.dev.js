@@ -37,13 +37,9 @@ module.exports = {
                 ]
             },
             {
-                test: /\.s[ac]ss$/,
-                use: [
-                    'style-loader',
-                    'css-loader',
-                    'sass-loader'
-                ]
-            }
+                test: /\.s[ac]ss$/i,
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+              },
         ]
     },
     plugins: [

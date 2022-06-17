@@ -1,0 +1,48 @@
+body {
+    background: rgb(146,38,199);
+    background: linear-gradient(0deg, rgba(146,38,199,1) 0%, rgba(181,45,253,1) 100%);
+    min-height: 922px;
+    overflow: hidden;
+    color: #ffffff;
+}
+.all-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    margin-top: 48px;
+}
+.pre-title{
+    font-size: 3.4rem;
+    position: relative;
+    top: 172px;
+    right: 42px;
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7.8rem;
+    font-weight: bold;
+}
+.play-btn{
+    background-color: #e5b1ff;
+    border: none;
+    padding: 6px;
+    height: 58px;
+    width: 238px;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    right: 22px;
+    cursor: pointer;
+    bottom: 18px;
+}
+.play-btn:hover{
+    box-shadow: #ffffff 1px 1px 5px ;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+}
