@@ -1,0 +1,81 @@
+.Tickets-name,
+.Tickets-date,
+.Tickets-time,
+.Tickets-location
+{
+    position: fixed;
+}
+.Tickets-name{
+    bottom: 402px;
+    left: 732px;
+}
+.Tickets-date{
+    bottom: 402px;
+    right: 828px;
+}
+.Tickets-time{
+    bottom: 312px;
+    left: 732px;
+}
+.Tickets-location{
+    bottom: 312px;
+    right: 818px;
+}
+.description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+.span-date,
+.span-time,
+.span-location{
+    position: fixed;
+}
+.span-name{
+    font-weight: bold;
+    font-size: 1.4rem;
+    width: 300px;
+    margin: 2px;
+    height: 70px;
+    max-height: 70px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 388px;
+    right: 218px;
+}
+
+.span-date{
+    font-size: 1.2rem;
+    bottom: 364px;
+    right: 758px;
+
+}
+.span-time{
+    bottom: 288px;
+    font-size: 1.2rem;
+    left: 732px;
+}
+.span-location{
+    bottom: 288px;
+    right: 746px;
+    font-size: 1.2rem;
+}
+.info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    font-weight: bold;
+}
+.Tickets-finalizar{
+    position: fixed;
+    bottom: 138px;
+    left: 744px;
+}
+.codigoBarra{
+    position: absolute;
+    object-fit: cover;
+    height: 62px;
+    width: 400px;
+    bottom: 122px;
+    left: 42px;
+}

@@ -1,0 +1,60 @@
+.Welcome-cancel{
+    height: 22px;
+    width: 422px;
+    position: absolute;
+    bottom: 52px;
+    left: 34px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(189, 54, 121);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+    height: 52px;
+    width: 422px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(189, 54, 121);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    box-shadow: rgb(156, 91, 91) 1px 1px 4px 2px;
+}
+.concert-img{
+    border-radius: 12px;
+    box-shadow: rgb(56, 56, 56) 0 2px 3px 1px ;
+    width: 502px;
+    position: fixed;
+    top: 142px;
+    height: 348px;
+    object-fit: cover;
+}
+.Welcome-title{
+    position: absolute;
+    bottom: 272px;
+    color: rgb(238, 238, 238);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Welcome-description{
+    font-size: 1rem;
+    width: 500px;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 202px;
+    color: rgb(39, 39, 39);
+}
+.Nav-logo-1{
+    position: absolute;
+    bottom: 296px;
+    font-size: 2.4rem;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

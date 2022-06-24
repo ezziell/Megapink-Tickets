@@ -1,0 +1,62 @@
+.Search{
+    position: absolute;
+    top: 20px;
+}
+.Nav-cancel{
+ position: absolute;
+ top: 12px;
+ right: 52px;
+ background-color: rgb(202, 202, 202);
+ border-style: none;
+ height: 22px;
+ width: 82px;
+ cursor: pointer;
+ border-radius: 12px;
+ font-size: 0.7rem;
+}
+.Nav-cancel:hover{
+    border: solid 1px rgb(78, 39, 39);
+}
+.seat-img{
+    height: 398px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 316px;
+    left: 758px;
+}
+.Search-title{
+    position: fixed;
+    bottom: 266px;
+    font-size: 1.1rem;
+    color: rgb(63, 63, 63);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+    left: 852px;
+    font-size: 1.1rem;
+    color: rgb(63, 63, 63);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.Search-select{
+    position: fixed;
+    left: 852px;
+    bottom: 216px;
+    height: 42px;
+    width: 182px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(82, 82, 82);
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Search-continue{
+    position: fixed;
+    bottom: 138px;
+    left: 744px;
+}
+.Search-continue:disabled{
+    background-color: rgb(63, 63, 63);
+}

@@ -1,0 +1,55 @@
+.div-tickets{
+    background-color: rgb(212, 212, 212);
+    height: 300px;
+    width: 498px;
+    position: fixed;
+    top: 300px;
+    border-radius: 12px;
+}
+.Passengers-title{
+    position: fixed;
+    top: 352px;
+    left: 718px;
+}
+.name-input{
+    position: fixed;
+    top: 518px;
+    left: 744px;
+    height: 42px;
+    width: 222px;
+    border-radius: 12px;
+    border-style: none;
+    padding-left: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Passengers-add{
+    position: fixed;
+    top: 522px;
+    height: 36px;
+    padding: 8px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: rgb(189, 54, 121);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    left: 992px;
+}
+.Passenger-pay{
+    position: fixed;
+    bottom: 138px;
+    left: 744px;
+}
+.Buyers-disabled{
+    background-color: rgb(63, 63, 63);
+}
+.Buyers-list{
+    max-height: 110px;
+    width: 400px;
+    overflow-y: auto;
+    position: absolute;
+    top: 82px;
+    left: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { useMachine } from '@xstate/react';
+import bookingMachine from '../Machines/bookingMachine';
 
 const Home = () => {
+    const [state, send] = useMachine(bookingMachine);
+    console.log("maquina", state);
     return(
         <div className='all-container'>
-            <p className='pre-title'>¿Cuánto sabes sobre</p>
-            <h1 className='title'>ballenas?</h1>
-            
+         <h2>Hola</h2>
         </div>
     )
 }
