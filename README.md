@@ -1,2 +1,2 @@
-# ballena-quiz
-quiz sobre ballenas hecho con react.js y sass
+# Megapink-Tickets
+simulador de compra de tickets utilizando xstate
